@@ -32,8 +32,23 @@ try {
 module.exports = {
     siteMetadata: {
         siteUrl: config.siteUrl,
+        title: config.title,
+        author: config.author,
+        description: config.description,
+        social: {
+          twitter: config.twitter,
+        },
     },
     plugins: [
+        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`,
+        `gatsby-plugin-offline`,
+        `gatsby-plugin-catch-links`,
+        `gatsby-plugin-force-trailing-slashes`,
+        'gatsby-transformer-remark',
+        'gatsby-plugin-sharp',
+        'gatsby-plugin-postcss',
         /**
          *  Content Plugins
          */
@@ -53,8 +68,20 @@ module.exports = {
                 name: `images`,
             },
         },
-        `gatsby-plugin-sharp`,
-        `gatsby-transformer-sharp`,
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/content`,
+        name: 'services'
+      }
+    },
+    {
+      resolve: "gatsby-plugin-purgecss",
+      options: {
+        tailwind: true,
+        purgeOnly: ["src/css/style.css"]
+      }
+    },
         {
             resolve: `gatsby-source-ghost`,
             options:
@@ -178,10 +205,6 @@ module.exports = {
                 createLinkInHead: true,
                 addUncaughtPages: true,
             },
-        },
-        `gatsby-plugin-catch-links`,
-        `gatsby-plugin-react-helmet`,
-        `gatsby-plugin-force-trailing-slashes`,
-        `gatsby-plugin-offline`,
+        }
     ],
 }

@@ -1,5 +1,17 @@
 module.exports = {
-    siteUrl: `https://gatsby.ghost.org`, // Site domain. Do not include a trailing slash!
+  name: 'Bank.Rehab',
+  shortName: 'Bank.Rehab',
+  url: 'https://Bank.Rehab', // Domain of your site without prefix!
+  prefix: '/',
+  author: 'Daniel Clough',
+  twitter: 'https://twitter.com/',
+    siteUrl: `https://Bank.Rehab`, // Site domain. Do not include a trailing slash!
+    title: `Bank.Rehab`,
+    description: `Website for Bank Rehab.`,
+
+    social: {
+      twitter: ``,
+        },
 
     postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
