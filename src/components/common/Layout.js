@@ -6,6 +6,8 @@ import Img from 'gatsby-image'
 
 import { Navigation } from '.'
 import config from '../../utils/siteConfig'
+import "../../css/style.css";
+
 
 // Styles
 
