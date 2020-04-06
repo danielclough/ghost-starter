@@ -39,7 +39,7 @@ const Header = ({ className, ...props }) => {
       <div className="flex flex-wrap flex-row items-start md:items-center justify-between px-6 md:px-10 lg:px-24 text-indigo-700">
         <div className="my-2">
           <Link to="/">
-            <img className="w-3/5" alt="Figurit Homepage" src={logo} />
+            <img className="site-logo" alt="Homepage" src={logo} />
           </Link>
         </div>
 
@@ -65,7 +65,7 @@ const Header = ({ className, ...props }) => {
           <HeaderLink to="/">Home</HeaderLink>
           <HeaderLink to="/services">Services</HeaderLink>
           <HeaderLink to="/team">Team</HeaderLink>
-          <HeaderLink to="/testimonials">Testimonials</HeaderLink>
+          <HeaderLink to="/blog">Blog</HeaderLink>
           <HeaderLink to="/contact">Contact</HeaderLink>
         </div>
       </div>
