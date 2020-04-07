@@ -17,7 +17,7 @@ const Post = ({ data, location, slug }) => {
     const post = data.ghostPost
 
 const disqusConfig = {
-  shortname: process.env.GATSBY_DISQUS_NAME,
+  shortname: "bank-rehab",
   config: { identifier: slug },
 }
 
@@ -47,9 +47,8 @@ const disqusConfig = {
                                 dangerouslySetInnerHTML={{ __html: post.html }}
                             />
                         </section>
-                      <DiscussionEmbed {...disqusConfig} />
-
                     </article>
+                      <DiscussionEmbed {...disqusConfig} />
                 </div>
             </Layout>
         </>
