@@ -6,7 +6,7 @@ draft: false
 image: '/team/danielclough.jpg'
 jobtitle: 'Full Stack Tech Lead'
 email: 'daniel@Bank.Rehab'
-linkedinurl: 'www.linkedin.com/danielclough'
+linkedinurl: 'www.linkedin.com/daniel-clough-9349b8b3/'
 weight: 2
 ---
 

@@ -44,7 +44,7 @@ function Index({ data }) {
         style={{ backgroundImage: `url(${home})` }}
       >
         <div className="w-4/5 md:w-3/4 lg:w-7/12 mt-20 font-serif font-hairline self-start">
-          <h1 className="text-3xl md:text-5xl text-indigo-700 leading-tight">
+          <h1 className="text-3xl md:text-5xl text-indigo-700 leading-tight mt-20">
             Bank.Rehab <br /> The Future of Social Banking.
           </h1>
           <p className="sub-title">
@@ -70,8 +70,8 @@ function Index({ data }) {
           </div>
         </div>
 
-        <div className="flex flex-col mt-10 md:mt-16">
-          <p className="mb-2 text-4xl text-gray-800 self-center">
+        <div className="flex flex-col mt-16 md:mt-16">
+          <p className="mb-2 text-4xl text-gray-800 self-center mt-16 md:mt-16">
             Our Services
           </p>
 
