@@ -9,7 +9,7 @@ const Footer = ({ className, ...props }) => {
   );
   return (
     <>
-      <div className="w-full px-8 py-2 text-white text-xs font-light bg-black flex flex-col sm:flex-row justify-between items-start md:items-center">
+      <div className="w-full px-8 py-2 text-white text-xs font-light flex flex-col sm:flex-row justify-between items-start md:items-center">
             <Link to="/copyright" className="hover:underline"> ©2020 Bank.Rehab </Link>
         <div>
           <ul className="flex flex-col md:flex-row text-sm -mx-3 font-medium mb-0">

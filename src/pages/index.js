@@ -49,34 +49,26 @@ function Index({ data }) {
           <h1 className="text-3xl md:text-5xl text-indigo-700 leading-tight">
             Bank.Rehab <br /> The Future of Social Banking.
           </h1>
-          <p className="text-base">
+          <p className="sub-title">
             From the persepctive of liberalism, Public Banking is a fundamental human right. <br /> From the persepctive of positivism, it is simply good policy.
           </p>
         </div>
 
         <div className="container w-3/4 sm:w-7/12 lg:w-5/12 xl:1/4 mt-10 self-start">
           <div
-            className="bg-white rounded flex flex-col sm:flex-row items-start sm:items-center text-sm p-4"
+            className="bg-white rounded flex flex-col sm:flex-row items-start sm:items-center p-4"
             style={{
               boxShadow:
                 "0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)"
             }}
           >
-            <div className="flex-1">
-              <p>
-                <strong>Phone: </strong>
-                (758) 249-3546
-              </p>
-              <p>
-                <strong>Email: </strong>
-                Help@Bank.Rehab
-              </p>
-            </div>
-            <div className="flex-initial mt-6 sm:mt-0">
-              <Link to="/contact">
-                <StyledButton>Contact</StyledButton>
-              </Link>
-            </div>
+
+             <form className="home-form" action="https://tinyletter.com/bank-rehab" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/bank-rehab', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+               <p><label for="tlemail">Join the Revolution! </label></p>
+               <p><input type="text" name="email" id="tlemail" /></p>
+               <input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" />
+             </form>
+         
           </div>
         </div>
 
