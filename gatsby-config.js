@@ -206,6 +206,12 @@ module.exports = {
                 createLinkInHead: true,
                 addUncaughtPages: true,
             },
+        },
+        {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-136138335-11",
+          },
         }
     ],
 }

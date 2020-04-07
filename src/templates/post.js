@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
+import { DiscussionEmbed } from "disqus-react"
 
 import { Layout } from '../components/common'
 import { MetaData } from '../components/common/meta'
@@ -12,8 +13,13 @@ import { MetaData } from '../components/common/meta'
 * This file renders a single post and loads all the content.
 *
 */
-const Post = ({ data, location }) => {
+const Post = ({ data, location, slug }) => {
     const post = data.ghostPost
+
+const disqusConfig = {
+  shortname: process.env.GATSBY_DISQUS_NAME,
+  config: { identifier: slug },
+}
 
     return (
         <>
@@ -41,6 +47,8 @@ const Post = ({ data, location }) => {
                                 dangerouslySetInnerHTML={{ __html: post.html }}
                             />
                         </section>
+                      <DiscussionEmbed {...disqusConfig} />
+
                     </article>
                 </div>
             </Layout>
