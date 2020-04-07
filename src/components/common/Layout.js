@@ -6,7 +6,6 @@ import Img from 'gatsby-image'
 
 import Header from "../header";
 import Footer from "../footer";
-import SEO from '../seo'
 import { Navigation } from '.'
 import config from '../../utils/siteConfig'
 import "../../css/style.css";

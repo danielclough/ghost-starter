@@ -2,12 +2,10 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Link from "gatsby";
 import Layout from "../components/layout";
-import SEO from "../components/seo";
 
 const Contact = () => {
   return (
     <Layout>
-      <SEO title="Contact" />
 
       <div className="min-h-screen mb-6 flex flex-col items-start">
         <div className="w-3/4 md:w-1/2 mt-24 font-serif font-hairline">

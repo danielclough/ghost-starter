@@ -7,7 +7,6 @@ import modeling from "../images/noun_3d modeling_1885342.svg";
 import Helmet from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
-import SEO from "../components/seo";
 
 const StyledButton = ({ className, children, ...props }) => {
   className = cx(
@@ -40,7 +39,6 @@ function Index({ data }) {
 
   return (
     <Layout headerClass="relative bg-white">
-      <SEO title="Home" />
       <div
         className="min-h-screen pt-24 sm:pt-32 md:pt-64 -mt-12 sm:-mt-16 md:-mt-24 lg:-mt-28 mb-20 bg-size-5/6 md:bg-size-4/5 lg:bg-size-2/3 bg-right-top bg-no-repeat flex flex-col items-center"
         style={{ backgroundImage: `url(${home})` }}
