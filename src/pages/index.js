@@ -52,7 +52,7 @@ function Index({ data }) {
           </p>
         </div>
 
-        <div className="container w-3/4 sm:w-7/12 lg:w-5/12 xl:1/4 mt-10 self-start">
+        <div className="form-container w-3/4 sm:w-7/12 lg:w-1/3 xl:1/5 mt-10 self-start">
           <div
             className="bg-white rounded flex flex-col sm:flex-row items-start sm:items-center p-4"
             style={{

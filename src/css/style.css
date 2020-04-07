@@ -2,27 +2,33 @@
     font-size: 170% !important;
 }
 
-.home-form p {
-    font-size: 250%;
-  margin: 0 20px auto;
-  display: inline-flex;
+.form-container {
+    margin-left: 7%;
 }
 
+.home-form p {
+    font-size: 250%;
+  margin: 0 auto;
+  display: inline-flex;
+}
 
 .home-form input[type=text] {
   padding: 6px 10px;
   margin-bottom: 8px;
-  box-sizing: border-box;
+  margin-left: 20px;
   border: 2px solid #ff8c58;
   border-radius: 4px;
   font-size: .5em;
+  width: 100%
 }
 
 .home-form input[type=submit] {
     font-size: 1.5em;
     background-color: #ff8c58;
     padding: 6px 10px;
+    margin-left: 35px;
   border-radius: 25px;
+  display: inline-flex;
 }
 
 html {
