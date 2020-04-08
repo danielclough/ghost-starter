@@ -1,8 +1,8 @@
 
 iframe {
-    width: 70vw;
-    height: 39vw;
-    margin: 0 auto;
+    width: 70vw !important;
+    height: 39vw !important;
+    margin: 0 auto !important;
 }
 
 .sub-title {
