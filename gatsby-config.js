@@ -33,7 +33,7 @@ module.exports = {
     siteMetadata: {
         siteUrl: config.siteUrl,
         title: config.title,
-        image: '/images/fb.jpg',
+        image: config.coverImageMeta,
         author: config.author,
         description: config.description,
         social: {
