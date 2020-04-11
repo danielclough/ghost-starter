@@ -24,7 +24,7 @@ import "../../css/style.css";
 */
 const DefaultLayout = ({ className, headerClass, data, children, bodyClass, isHome,  ...props }) => {
 
-  bodyClass = bodyClass || "container mx-auto px-6 md:px-10 lg:px-16";
+  bodyClass = bodyClass || "container mx-auto px-0 sm:px-0 md:px-10 lg:px-16";
     const site = data.allGhostSettings.edges[0].node
     const twitterUrl = site.twitter ? `https://twitter.com/${site.twitter.replace(/^@/, ``)}` : null
     const facebookUrl = site.facebook ? `https://www.facebook.com/${site.facebook.replace(/^\//, ``)}` : null
@@ -38,10 +38,9 @@ const DefaultLayout = ({ className, headerClass, data, children, bodyClass, isHo
             </Helmet>
 
             <div className="viewport">
-
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
-      <Header className={headerClass} />
+                    <Header className={headerClass} />
 
                     <main className="site-main">
                         {/* All the main content gets inserted here, index.js, post.js */}

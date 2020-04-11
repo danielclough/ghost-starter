@@ -6,7 +6,7 @@ import Footer from "./footer";
 import "../css/style.css";
 
 const Layout = ({ className, headerClass, bodyClass, children, ...props }) => {
-  bodyClass = bodyClass || "container mx-auto px-6 md:px-10 lg:px-16";
+  bodyClass = bodyClass || "container mx-auto px-6 sm:px-1 md:px-10 lg:px-16";
   return (
     <div className={className} {...props}>
       <Helmet>
