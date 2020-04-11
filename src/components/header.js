@@ -14,7 +14,7 @@ const StyledLink = ({ className, ...props }) => {
 
 const HeaderLink = ({ className, children, ...props }) => {
   className = cx(
-    "w-full md:w-auto py-2 md:px-1 -mb-1 text-sm font-medium uppercase hover:text-indigo-500 border-transparent border-b-4 md:hover:border-indigo-600 relative",
+    "w-full py-3 md:px-1 -mb-1 font-medium uppercase hover:text-indigo-500 border-transparent border-b-4 md:hover:border-indigo-600 relative",
     className
   );
   return (
@@ -37,7 +37,7 @@ const Header = ({ className, ...props }) => {
   return (
     <div className={className} {...props}>
       <div className="flex flex-wrap flex-row items-start md:items-center justify-between px-6 md:px-10 lg:px-24 text-indigo-700">
-        <div className="my-2">
+        <div className="my-2 mx-3">
           <Link to="/">
             <img className="site-logo" alt="Homepage" src={logo} />
           </Link>

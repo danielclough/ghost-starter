@@ -52,21 +52,20 @@ function Index({ data }) {
           </p>
         </div>
 
-        <div className="form-container w-3/4 sm:w-7/12 lg:w-1/3 xl:1/5 mt-10 self-start">
+        <div className="form-container w-full sm:w-full md:w-1/2 lg:w-1/3 xl:1/5 mt-10 self-start">
           <div
-            className="bg-white rounded flex flex-col sm:flex-row items-start sm:items-center p-4"
+            className="w-full bg-white rounded flex flex-col sm:flex-row items-start sm:items-center p-4"
             style={{
               boxShadow:
                 "0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)"
             }}
           >
-
-             <form className="home-form" action="https://tinyletter.com/bank-rehab" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/bank-rehab', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-               <p><label for="tlemail">Join the Revolution! </label></p>
-               <p><input type="text" name="email" id="tlemail" /></p>
-               <input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" />
+             <form className="home-form w-full" action="https://tinyletter.com/bank-rehab" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/bank-rehab', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+               <p><label className="m-auto text-center" for="tlemail">Join the Revolution! </label></p>
+               <p><input className="w-full mb-2 mx-0 mx-auto" type="text" name="email" id="tlemail" /></p>
+               <input type="hidden" value="1" name="embed"/>
+               <input className="w-auto" type="submit" value="Subscribe" />
              </form>
-         
           </div>
         </div>
 

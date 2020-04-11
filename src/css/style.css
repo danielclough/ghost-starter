@@ -9,33 +9,28 @@ iframe {
     font-size: 170% !important;
 }
 
-.form-container {
-    margin-left: 7%;
-}
 
 .home-form p {
-    font-size: 250%;
+    font-size: 3rem;
   margin: 0 auto;
-  display: inline-flex;
 }
 
 .home-form input[type=text] {
   padding: 6px 10px;
-  margin-bottom: 8px;
-  margin-left: 20px;
   border: 2px solid #ff8c58;
   border-radius: 4px;
-  font-size: .5em;
-  width: 100%
+  font-size: 1.7rem;
+    display: inline-block;
 }
 
 .home-form input[type=submit] {
-    font-size: 1.5em;
+    font-size: 1.7rem;
     background-color: #ff8c58;
-    padding: 6px 10px;
-    margin-left: 35px;
+    padding: .6rem .2rem;
   border-radius: 25px;
-  display: inline-flex;
+  display: inline-block;
+  margin: 0 auto;
+  float: right;
 }
 
 html {
