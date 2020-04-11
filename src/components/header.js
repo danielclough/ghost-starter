@@ -37,9 +37,9 @@ const Header = ({ className, ...props }) => {
   return (
     <div className={className} {...props}>
       <div className="flex flex-wrap flex-row items-start md:items-center justify-between px-6 md:px-10 lg:px-24 text-indigo-700">
-        <div className="my-2 overflow-visible">
+        <div className="my-2">
           <Link to="/">
-            <img className="site-logo" alt="Homepage" src={logo} />
+            <img className="site-logo overflow-visible" alt="Homepage" src={logo} />
           </Link>
         </div>
 
