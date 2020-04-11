@@ -11,7 +11,7 @@
    version="1.1"
    viewBox="0 0 223.82352 35.057556"
    height="35.057556"
-   width="260"
+   width="245"
    sodipodi:docname="logo.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <sodipodi:namedview
@@ -27,9 +27,9 @@
      inkscape:window-height="1029"
      id="namedview49"
      showgrid="false"
-     inkscape:zoom="1.2375822"
-     inkscape:cx="27.634089"
-     inkscape:cy="-181.37448"
+     inkscape:zoom="3.5004111"
+     inkscape:cx="78.217846"
+     inkscape:cy="-48.083528"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -58,7 +58,7 @@
        x1="28.108999"
        gradientUnits="userSpaceOnUse"
        y1="9.7983999"
-       gradientTransform="matrix(1.0392699,0,0,0.9235682,-7.1830185,-5.5349942)"
+       gradientTransform="matrix(1.0392699,0,0,0.9235682,-17.183018,-5.5349942)"
        x2="31.291"
        y2="38.806999">
       <stop
@@ -75,7 +75,7 @@
        x1="8.0454998"
        gradientUnits="userSpaceOnUse"
        y1="14.305"
-       gradientTransform="matrix(0.8912403,0,0,0.98779733,-5.271545,-7.2623249)"
+       gradientTransform="matrix(0.8912403,0,0,0.98779733,-15.271545,-7.2623249)"
        x2="50.488998"
        y2="14.305">
       <stop
@@ -160,15 +160,15 @@
   <text
      id="text108"
      y="34.528908"
-     x="42.11779"
+     x="32.11779"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"><tspan
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.33333206px;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif';letter-spacing:-2px"
        y="34.528908"
-       x="42.11779"
+       x="32.11779"
        id="tspan106">Bank.Rehab</tspan></text>
   <g
-     transform="matrix(0.60394877,0,0,0.66938061,2.0908409,36.4829)"
+     transform="matrix(0.60394877,0,0,0.66938061,-7.909159,36.4829)"
      id="g4024"
      style="stroke:#000000;stroke-linejoin:round">
     <path
@@ -213,21 +213,21 @@
        inkscape:connector-curvature="0" />
   </g>
   <rect
-     x="7.1780152"
+     x="-2.8219848"
      y="13.103498"
      width="27.567135"
      height="16.240982"
      id="rect3785"
      style="fill:url(#linearGradient3793);stroke:#ccd1d1;stroke-width:0.97968799;stroke-linejoin:round" />
   <rect
-     x="17.732195"
+     x="7.7321949"
      y="18.848179"
      width="6.6532254"
      height="10.363852"
      id="rect3837"
      style="fill:#be8c47;stroke:#937348;stroke-width:0.80835634;stroke-linejoin:round" />
   <g
-     transform="matrix(0.8912403,0,0,1.0338559,-10.418051,-9.2365884)"
+     transform="matrix(0.8912403,0,0,1.0338559,-20.418051,-9.2365884)"
      id="g3827"
      style="stroke:#ccd1d1;stroke-linejoin:round">
     <rect
@@ -260,19 +260,19 @@
        style="fill:url(#linearGradient4073)" />
   </g>
   <rect
-     x="2.6636825"
+     x="-7.3363171"
      y="31.80316"
      width="36.295776"
      height="1.7170142"
      id="rect3835"
      style="fill:#dde4e4;stroke:#cad3d3;stroke-width:0.49577421;stroke-linejoin:round" />
   <path
-     d="M 2.3440826,12.493156 20.952575,0.86468919 39.27882,12.871209 Z"
+     d="M -7.655917,12.493156 10.952575,0.86468919 29.27882,12.871209 Z"
      id="path2993"
      style="fill:url(#linearGradient3833);stroke:#ccd1d1;stroke-width:0.93827754px;stroke-linejoin:round"
      inkscape:connector-curvature="0" />
   <rect
-     x="4.2669063"
+     x="-5.7330933"
      y="29.717209"
      width="32.604946"
      height="1.7170142"
@@ -281,7 +281,7 @@
   <text
      transform="scale(0.9498685,1.0527773)"
      xml:space="preserve"
-     x="18.49963"
+     x="7.9718571"
      y="11.054167"
      font-size="19.158px"
      line-height="125%"
@@ -289,6 +289,6 @@
      id="text3857">       <tspan
    style="stroke-width:0.63221991"
    y="11.054167"
-   x="18.49963"
+   x="7.9718571"
    id="tspan3859">$</tspan>    </text>
 </svg>
