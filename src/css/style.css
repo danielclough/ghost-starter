@@ -9,6 +9,7 @@ iframe {
     font-size: 170% !important;
 }
 
+svg {width: 100%;}
 
 .home-form p {
     font-size: 3rem;
