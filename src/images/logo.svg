@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg12"
    version="1.1"
    viewBox="0 0 223.82352 35.057556"
    height="35.057556"
-   width="223.82352">
+   width="260"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     id="namedview49"
+     showgrid="false"
+     inkscape:zoom="1.2375822"
+     inkscape:cx="27.634089"
+     inkscape:cy="-181.37448"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
   <metadata
      id="metadata16">
     <rdf:RDF>
@@ -150,35 +174,43 @@
     <path
        d="m 7.8383,-35.141 h 45.905 v 24.709 H 7.8383 Z"
        id="rect3785-9"
-       style="stroke-width:1.58089995" />
+       style="stroke-width:1.58089995"
+       inkscape:connector-curvature="0" />
     <g
        transform="matrix(1.5141,0,0,1.5847,-22.055,-69.384)"
        id="g3827-0">
       <path
          d="m 19.813,20.545 h 3.6364 V 37.818 H 19.813 Z"
-         id="rect3783-1" />
+         id="rect3783-1"
+         inkscape:connector-curvature="0" />
       <path
          d="m 27.449,20.545 h 3.6364 V 37.818 H 27.449 Z"
-         id="rect3783-4-7" />
+         id="rect3783-4-7"
+         inkscape:connector-curvature="0" />
       <path
          d="m 47.085,20.545 h 3.6364 V 37.818 H 47.085 Z"
-         id="rect3783-2-7" />
+         id="rect3783-2-7"
+         inkscape:connector-curvature="0" />
       <path
          d="m 39.449,20.545 h 3.6364 V 37.818 H 39.449 Z"
-         id="rect3783-0-9" />
+         id="rect3783-0-9"
+         inkscape:connector-curvature="0" />
     </g>
     <path
        d="m 0.16919,-6.479 h 61.662 v 2.6319 h -61.662 z"
        id="rect3835-2"
-       style="stroke-width:0.80002999" />
+       style="stroke-width:0.80002999"
+       inkscape:connector-curvature="0" />
     <path
        d="m -0.91613,-35.716 32.499,-18.366 30.791,18.584 z"
        id="path2993-4"
-       style="stroke-width:1.51409996px" />
+       style="stroke-width:1.51409996px"
+       inkscape:connector-curvature="0" />
     <path
        d="m 2.8929,-9.6761 h 55.391 v 2.6319 H 2.8929 Z"
        id="rect3835-1-2"
-       style="stroke-width:0.80002999" />
+       style="stroke-width:0.80002999"
+       inkscape:connector-curvature="0" />
   </g>
   <rect
      x="7.1780152"
@@ -237,7 +269,8 @@
   <path
      d="M 2.3440826,12.493156 20.952575,0.86468919 39.27882,12.871209 Z"
      id="path2993"
-     style="fill:url(#linearGradient3833);stroke:#ccd1d1;stroke-width:0.93827754px;stroke-linejoin:round" />
+     style="fill:url(#linearGradient3833);stroke:#ccd1d1;stroke-width:0.93827754px;stroke-linejoin:round"
+     inkscape:connector-curvature="0" />
   <rect
      x="4.2669063"
      y="29.717209"
