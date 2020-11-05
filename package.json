@@ -45,7 +45,7 @@
     "tailwindcss-transforms": "^2.2.0"
   },
   "dependencies": {
-    "@tryghost/helpers": "1.1.25",
+    "@tryghost/helpers": "1.1.32",
     "@tryghost/helpers-gatsby": "1.0.29",
     "cheerio": "1.0.0-rc.3",
     "classnames": "^2.2.6",
